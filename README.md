@@ -1,16 +1,37 @@
-# React + Vite
+# Interactive Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React counter application built with Vite. This project was designed to deeply understand React state management (`useState`), event handling, and component re-rendering.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View the live site here](https://counter-app-virid-seven-80.vercel.app/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- **Interactive State:** Increment, decrement, and reset the counter using React's `useState` hook.
+- **Clean Architecture:** Separated logic into a modular `Counter` component.
+- **Modern Styling:** Custom "Mint & Soft Gray" theme built with pure CSS, flexbox, and smooth hover transitions.
+- **Fully Responsive:** Fluid layout that adapts seamlessly to mobile, tablet, and desktop screens.
+- **Accessible:** Full keyboard navigation (Tab to focus, Enter to click) for all buttons.
 
-## React Compiler
+## 🛠️ Technologies Used
+- React (v18+)
+- Vite
+- CSS3 (Flexbox, CSS Variables, Transitions)
+- Git & GitHub
+- Vercel (Deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Meenama123/counter-app.git
 
-## Expanding the ESLint configuration
+2. Navigate into the project folder:
+   ```bash
+   cd counter-app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Install dependencies:
+    ```bash
+    npm install
+
+4. Start the development server:
+    ```bash
+    npm run dev  
